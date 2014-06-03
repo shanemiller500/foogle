@@ -39,6 +39,7 @@ end
 group :development , :test do
   gem 'rspec-rails', '2.99'
   gem 'capybara'
+  gem 'rspec-activemodel-mocks'
 end 
 
 gem 'bootstrap-sass'
