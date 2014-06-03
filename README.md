@@ -1,4 +1,5 @@
-##This App is a test app for week 9ish? Colt and stujo are the kick project managers for this week!
+##PART1
+##This App is a test app for week 9ish? Colt and stujo are the kick ass project managers for this week!
 
 #what with these gems?
 ##better_errors  
@@ -29,7 +30,7 @@
 #Why do we use Postgres instead of sqlite3?
 |Postgres is a much faster DB than sqlite3.|
 
-
+##PART 2
 #Explain what you accomplished in this lesson
 It did help with learning how to know what is generated with the controllers trhough the terminal and what needs to be deleted.
 
@@ -40,3 +41,14 @@ Capybara helps you test the web app by simulating how  a real world user would u
 #What is the spec_helper?
 
 Spec helper is a gem that will help you with testing your app, It can slow down the process but it will go throught the app and make sure the test is correct!
+
+##PART 3
+
+#Explain what you accomplished in this lesson?
+I accopmlished how to understand bootstrap scss, It is much different that normal bootstrap.
+
+#What is bootstrap you ask?
+Bootstrap is libary of css and javascript that is premade for you, All you have to do is add the class names onto the html or erb elements and you have a sext looking site!
+
+#What is responsive design?
+Responsive design is a way to make your site good looking on all size devices. 
