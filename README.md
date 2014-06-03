@@ -60,3 +60,6 @@ This lesson we took a look at what the scaffold is, It creates quite a lot of fi
 #What is the gem rspec-activemodel-mocks??
 
 That gem does magic!! It is a part of rspec testing that will help make to go quicker, It is kinda like an under paid, under appreciated stunt dubble..
+
+##part 5
+
