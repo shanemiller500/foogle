@@ -1,4 +1,4 @@
-##This App is a test app for week 9ish? Colt and stujo are the kick project managers for this week!
+##This App is a test app for week 9ish? Colt and stujo are the kick ass project managers for this week!
 
 #what with these gems?
 ##better_errors  
