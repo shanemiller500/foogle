@@ -40,6 +40,7 @@ group :development , :test do
   gem 'rspec-rails', '2.99'
   gem 'capybara'
   gem 'rspec-activemodel-mocks'
+  gem "factory_girl_rails", "~> 4.0"
   
 end 
 

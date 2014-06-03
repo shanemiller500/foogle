@@ -8,6 +8,15 @@ describe "things/new" do
     ).as_new_record)
   end
 
+  it "should have valid factory" do
+    FactoryGirl.create(:thing).should be_valid
+  end
+
+  it "should require a name" do
+    FactoryGirl.create(:thing => " ").should_not be_valid
+  end
+
+
   it "renders new thing form" do
     render
 
@@ -18,3 +27,4 @@ describe "things/new" do
     end
   end
 end
+
