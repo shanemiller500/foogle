@@ -1,4 +1,3 @@
 Rails.application.routes.draw do
- root 'pages#helloworld'
- get '/helloworld', to: 'pages#index'
+ get '/helloworld', to: 'pages#helloworld'
 end
