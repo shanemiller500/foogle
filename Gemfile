@@ -40,7 +40,7 @@ group :development , :test do
   gem 'rspec-rails', '2.99'
   gem 'capybara'
   gem 'rspec-activemodel-mocks'
-  gem 'FactoryGirl'
+  
 end 
 
 gem 'bootstrap-sass'
