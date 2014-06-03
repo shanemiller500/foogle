@@ -52,3 +52,14 @@ Bootstrap is libary of css and javascript that is premade for you, All you have 
 
 #What is responsive design?
 Responsive design is a way to make your site good looking on all size devices. 
+
+##Part 4
+#Explain what you accomplished in this lesson?
+This lesson we took a look at what the scaffold is, It creates quite a lot of files to use and a lot that are deemed useless... 
+
+#What is the gem rspec-activemodel-mocks??
+
+That gem does magic!! It is a part of rspec testing that will help make to go quicker, It is kinda like an under paid, under appreciated stunt dubble..
+
+##part 5
+
