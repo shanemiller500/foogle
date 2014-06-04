@@ -111,21 +111,23 @@ We added devise and added devise rspec tests
 
 #Explain each of these devise behaviours
 
-Confirmable:It means something can be comfermed.
+Confirmable: sends emails with confirmation instructions and verifies whether an account is already confirmed during sign in.
 
-Recoverable:You can recover something lost!
+Recoverable: resets the user password and sends reset instructions.
 
-Registerable:
+Registerable: handles signing up users through a registration process, also allowing them to edit and destroy their account. 
 
-Rememberable:
+Rememberable: manages generating and clearing a token for remembering the user from a saved cookie.
 
-Trackable:
+Trackable: tracks sign in count, timestamps and IP address.
 
-Timeoutable:
+Timeoutable:  expires sessions that have no activity in a specified period of time.
 
-Validatable:
+Validatable: provides validations of email and password. It's optional and can be customized, so you're able to define your own validations.
 
-Lockable:
+Lockable: locks an account after a specified number of failed sign-in attempts. Can unlock via email or after a specified time period.
 
 What did you have to do to update your rspec tests after adding authentication for the things
 What are the routes that were added and what do they do?
+
+I had to add some things into the spec controller to help make it work!
