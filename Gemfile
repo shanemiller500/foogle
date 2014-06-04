@@ -41,6 +41,7 @@ group :development , :test do
   gem 'capybara'
   gem 'rspec-activemodel-mocks'
   gem "factory_girl_rails", "~> 4.0"
+  gem 'dotenv-rails'
   
 end 
 
@@ -48,6 +49,8 @@ gem 'bootstrap-sass'
 gem 'bootstrap-generators', '~>3.1.1'
 
 gem 'faker'
+
+gem 'devise'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
