@@ -63,3 +63,15 @@ That gem does magic!! It is a part of rspec testing that will help make to go qu
 
 ##part 5
 
+#Explain what you did this lesson?
+I learnt how to validate a rails app. There is still a lot more to learn. We alsp did some factory girl rspec tests, I still have some issues understanding it but that is one thing i will do next week!
+
+#Name at least 3 types of default Rails(non-custom) validations
+1.password
+2.age
+3.email
+
+#What are some things that you might want to write a custom validation for?
+
+there are many things you can write a custom valadation for, Email, user name is valid to the account
+
