@@ -41,6 +41,7 @@ group :development , :test do
   gem 'capybara'
   gem 'rspec-activemodel-mocks'
   gem "factory_girl_rails", "~> 4.0"
+  gem 'dotenv-rails'
   
 end 
 
