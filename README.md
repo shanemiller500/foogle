@@ -103,3 +103,29 @@ Faker, randexp, random data, CheapRandom, Data anonymization, ffaker
 #How do you select a random element from an array?
 
 thing.find
+
+##part 6
+
+#Explain what you did
+We added devise and added devise rspec tests
+
+#Explain each of these devise behaviours
+
+Confirmable:It means something can be comfermed.
+
+Recoverable:You can recover something lost!
+
+Registerable:
+
+Rememberable:
+
+Trackable:
+
+Timeoutable:
+
+Validatable:
+
+Lockable:
+
+What did you have to do to update your rspec tests after adding authentication for the things
+What are the routes that were added and what do they do?
