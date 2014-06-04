@@ -47,6 +47,8 @@ end
 gem 'bootstrap-sass'
 gem 'bootstrap-generators', '~>3.1.1'
 
+gem 'faker'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

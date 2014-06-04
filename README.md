@@ -75,3 +75,31 @@ I learnt how to validate a rails app. There is still a lot more to learn. We als
 
 there are many things you can write a custom valadation for, Email, user name is valid to the account
 
+#When are your models actually validated?
+
+they validated the things in the DB
+
+
+
+
+
+#levil 6 seeding
+#Explain what you did
+It got a little weird with all this sutff.
+
+Explain what is the difference between .find_or_create_by and find_or_initialize_by?
+
+ find_or_create_by: will searck the database and if it is not in the database it will create it if it is it will not recreate it.
+
+find_or_initialize_by:It will find the thing it is looking for and initialize it if t is not in the database but it will not save it. 
+
+#What does the forgery gem do?
+It will add random seeds to your seed file.
+
+#What other gems are out there to help create seed data?
+
+Faker, randexp, random data, CheapRandom, Data anonymization, ffaker
+
+#How do you select a random element from an array?
+
+thing.find
