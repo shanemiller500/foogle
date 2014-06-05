@@ -5,14 +5,15 @@ class ThingsController < ApplicationController
 
 
   def index
-    @things = Thing.all
+    @things = Thing.all.paginate(page: params[:page], per_page: 6)
   end
 
   def show 
   end
 
   def my_things
-    @things = current_user.things.all
+    @things = current_user.things.all.paginate(page: params[:page], per_page: 6)
+
   end
 
   def new
@@ -71,8 +72,8 @@ end
         if current_user.id == @thing.user_id
           flash[:notice] = "created"
         else
-          flash[:notice] = "ERROR! This is not yours to mess with.."
-          redirect_to thing_path
+          flash[:danger] = "ERROR! This is not yours to mess with.."
+          redirect_to things_path
         end
     end
 end
