@@ -1,5 +1,6 @@
 class ThingsController < ApplicationController
   before_action :set_thing, only: [:show, :edit, :update, :destroy]
+  before_action :authorize, only: [:edit, :destroy]
   before_action :authenticate_user!
 
 
@@ -7,7 +8,11 @@ class ThingsController < ApplicationController
     @things = Thing.all
   end
 
-  def show
+  def show 
+  end
+
+  def my_things
+    @things = current_user.things.all
   end
 
   def new
@@ -15,10 +20,12 @@ class ThingsController < ApplicationController
   end
 
   def edit
-  end
+
+end
 
   def create
     @thing = Thing.new(thing_params)
+    @thing.user_id = current_user.id
 
     respond_to do |format|
       if @thing.save
@@ -57,5 +64,15 @@ class ThingsController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def thing_params
       params.require(:thing).permit(:name, :description, :user_id)
+    end
+
+    def authorize
+      
+        if current_user.id == @thing.user_id
+          flash[:notice] = "created"
+        else
+          flash[:notice] = "ERROR! This is not yours to mess with.."
+          redirect_to thing_path
+        end
     end
 end

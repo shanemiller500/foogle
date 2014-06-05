@@ -37,6 +37,8 @@
           <li class="active" ><a href="/helloworld">Hello World</a></li>
            <li><a href="/things">Things</a></li>
             <% if user_signed_in? %>
+            <li class="page-scroll"><%= link_to "My things",  my_things_path  %>
+        </li>
         
         
         <li class="page-scroll"><%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
